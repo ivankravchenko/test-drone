@@ -6,6 +6,7 @@ pipeline:
   whatever:
     image: alpine
     commands:
+      - echo ${DRONE_REPO} ${DRONE_BRANCH} ${DRONE_PULL_REQUEST} ${SEC1}
       - echo Done!
   publish:
     image: plugins/docker
