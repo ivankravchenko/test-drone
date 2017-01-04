@@ -5,5 +5,5 @@ pipeline:
       - npm --version
   whatever:
     image: alpine
-    commands
+    commands:
       - echo Done!
