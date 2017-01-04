@@ -7,3 +7,7 @@ pipeline:
     image: alpine
     commands:
       - echo Done!
+  publish:
+    image: plugins/docker
+    repo: ivankravchenko/test-drone
+    tags: [ latest, 1, 1.0, 1.0.0 ]
