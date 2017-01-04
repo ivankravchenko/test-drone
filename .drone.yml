@@ -3,4 +3,7 @@ pipeline:
     image: node
     commands:
       - npm --version
+  whatever:
+    image: alpine
+    commands
       - echo Done!
